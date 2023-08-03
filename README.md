@@ -1,3 +1,6 @@
+![workflow](https://github.com/PARTYNEXTDOORS/kittygram_final/actions/workflows/main.yml/badge.svg)
+![branch parameter](https://github.com/PARTYNEXTDOORS/kittygram_final/actions/workflows/main.yml/badge.svg?branch=feature-1)
+![event parameter](https://github.com/PARTYNEXTDOORS/kittygram_final/actions/workflows/main.yml/badge.svg?event=push)
 ### Описание проекта 
 Kittygram - сервис для любителей котиков.
 
@@ -172,5 +175,3 @@ dockerhub_username: ваш_логин_на_докерхабе
 
 ### Автор
 [PARTYNEXTDOORS](https://github.com/PARTYNEXTDOORS)
-
-
