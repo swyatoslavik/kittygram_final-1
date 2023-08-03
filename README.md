@@ -1,6 +1,12 @@
 ![workflow](https://github.com/PARTYNEXTDOORS/kittygram_final/actions/workflows/main.yml/badge.svg)
-![branch parameter](https://github.com/PARTYNEXTDOORS/kittygram_final/actions/workflows/main.yml/badge.svg?branch=feature-1)
-![event parameter](https://github.com/PARTYNEXTDOORS/kittygram_final/actions/workflows/main.yml/badge.svg?event=push)
+
+___
+
+### Стэк
+
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![DjangoREST](https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=blue) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white) ![Gunicorn](https://img.shields.io/badge/gunicorn-%298729.svg?style=for-the-badge&logo=gunicorn&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
+
+___
 ### Описание проекта 
 Kittygram - сервис для любителей котиков.
 
@@ -10,6 +16,7 @@ Kittygram - сервис для любителей котиков.
 - Добавлять новые и присваивать уже существующие достижения. 
 - Просматривать чужих котов и их достижения.
 
+___
 ## Установка 
 
 1. Клонируйте репозиторий на свой компьютер:
@@ -22,7 +29,7 @@ Kittygram - сервис для любителей котиков.
     ```
 2. Создайте файл .env и заполните его своими данными. Перечень данных указан в корневой директории проекта в файле .env.example.
 
-
+___
 ### Создание Docker-образов
 
 1.  Замените username на ваш логин на DockerHub:
@@ -44,6 +51,7 @@ Kittygram - сервис для любителей котиков.
     docker push username/kittygram_gateway
     ```
 
+___
 ### Деплой на сервере
 
 1. Подключитесь к удаленному серверу
@@ -123,6 +131,7 @@ Kittygram - сервис для любителей котиков.
     sudo service nginx reload
     ```
 
+___
 ### Настройка CI/CD
 
 1. Файл workflow уже написан. Он находится в директории
@@ -145,7 +154,7 @@ Kittygram - сервис для любителей котиков.
     TELEGRAM_TOKEN                 # токен бота (получить токен можно у @BotFather, /token, имя бота)
     ```
 
-
+___
 ###  Как работать с репозиторием финального задания
 
 #### Что нужно сделать
